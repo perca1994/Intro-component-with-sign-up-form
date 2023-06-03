@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <main class="header">
+    <h1 class="header-heading">Learn to code by watching others</h1>
+
+    <p class="header-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+      great,
+      but understanding how developers think is invaluable.</p>
+
+
+  </main>
+  <div class="container-form">
+    <a href="#" class="button"><span>Try it free 7 days</span> then $20/mo. thereafter</a>
+    <form class="formulario" action="">
+      <div>
+        <label for="first-name"></label>
+        <input type="text" name="First name" id="first-name" placeholder="First Name">
+        <p class="alerta f-n inactive">First Name cannot be empty</p>
+        <label for="last-name inactive"></label>
+        <input type="text" name="Last name" id="last-name" placeholder="Last Name">
+        <p class="alerta l-n inactive">Last Name cannot be empty</p>
+        <label for="email"></label>
+        <input type="email" name="Email" id="email" placeholder="Email Address">
+        <p class="alerta e-m inactive">Looks like this is not an email</p>
+        <label for="password"></label>
+        <input type="password pass" name="Password" id="password" placeholder="Password">
+        <p class="alerta inactive">password cannot be empty</p>
+
+        <input type="submit" value="Claim your free trial">
+
+        <p> By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+    </form>
+  </div>
+  <footer>
+
+  </footer>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
